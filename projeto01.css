@@ -131,7 +131,7 @@ margin:auto;
     margin-top: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 #wrap>nav a {
@@ -147,9 +147,9 @@ margin:auto;
     color: rgb(250, 167, 250);
 }
 
-#wrap>nav a:first-child {
+/* #wrap>nav a:first-child {
     margin-right: auto;
-}
+} */
 
 #wrap>nav i {
     font-size: 2rem;
@@ -247,18 +247,19 @@ margin:auto;
 
 #finf {
     display: flex;
-    padding: .5rem;
+    padding: .2rem;
     justify-content: space-between;
 }
 
 #finf h4 {
-    margin: 0 0 .7rem 0;
+    margin:  0 .2rem 0;
     font-weight: normal;
+    
 }
 
 #finf nav a {
     display: block;
-    padding: .3rem 0;
+    padding: .2rem 0;
     font-size: .9rem;
     color: rgb(255, 240, 255);
 }
@@ -266,6 +267,7 @@ margin:auto;
 #finf nav a:hover {
     color: rgb(250, 167, 250);
     text-decoration: none;
+
 }
 
 @media screen and (min-width: 426px) {
