@@ -85,7 +85,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 #wrap>header a {
@@ -132,6 +135,8 @@ margin:auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 10;
+    margin-top: 330px;
 }
 
 #wrap>nav a {
@@ -189,10 +194,12 @@ margin:auto;
     overflow: auto;
     margin: 0 .5rem;
     padding: 0 1rem;
+    
 }
 
 #wrap>main aside {
     margin: .5rem;
+    
 }
 
 @media screen and (min-width: 768px) {
