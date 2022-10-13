@@ -104,9 +104,11 @@ body {
  Logotipo centralizado 
  **********************/
 
+
 #wrap>header img{
 display: block;
 margin:auto;
+
 }
 
 #wrap>header h1 {
@@ -194,6 +196,9 @@ margin:auto;
     overflow: auto;
     margin: 0 .5rem;
     padding: 0 1rem;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 10;
     
 }
 
